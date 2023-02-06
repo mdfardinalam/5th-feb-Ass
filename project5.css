@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-image: url(./background\ -img.jpeg);
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: black
+    
+    
+}
+
+
+   
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    /* border: 1px solid white; */
+    padding: 10px;
+}
+ .logo img{
+    /* height: 40px; */
+    width: 90px;
+    display: flex;
+    justify-items: center;
+    
+}
+
+nav{
+    width:60%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content:space-between;
+    gap: 30px;
+    cursor: pointer;
+}
+ul li{
+    color: white;
+    list-style: none;
+    font-weight: 400;
+    font-size: 19px;
+}
+.token{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+
+}
+.token ul{
+    display: flex;
+    align-items: center;
+}
+.token ul li{
+    background-color: rgb(196, 3, 196);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:130px;
+    font-weight: 450;
+    height: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.background-image{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.text{
+    width: 400px;
+    text-align: center;
+    color: rgb(252, 251, 251);
+
+}
+ .background-image h2{
+    font-size: 50px;
+    font-weight: 500;
+}
+button{
+    background-color: rgb(196, 3, 196);
+    color:white;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    width: 180px;
+    height: 30px;
+    border-radius:6px;
+    margin-top: 20px;
+
+}
